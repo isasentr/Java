@@ -1,0 +1,25 @@
+Neler yaptık neler yapacağız
+1- Algorıtma
+2- Değişken
+3- String işlemleri
+4- Scanner işlemleri
+5- if-else-switch case
+6- for,while do_while
+7- Break, contınue, random, Math, Debug
+8- Diziler, 2 boyutlu diziler
+------işi kolayladık
+amaç: verılerı alıp,
+      uygun değişkene atıp,
+      onları işlemek
+
+ne kaldı geriye
+-tekrarlı ifadeleri bir kere yazıp, çok kez kullanma
+-değişik dizileri göreceğiz
+1,5 hafta
+
+7 hafta
+-nesne programlama
+3 ay java
+
+3 ay test
+daha keyifli zamanlar, testing toollar

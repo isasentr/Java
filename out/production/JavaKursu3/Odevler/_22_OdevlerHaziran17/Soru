@@ -1,0 +1,153 @@
+1-  Yanda Ekli tasarıma göre: (animal)
+
+Ekteki Tasarıma göre gerekli modülleri yazınız.
+Sonra her birinden nesne üretiniz.
+
+- ürettiğiniz nesneleri bir ArrayListe ekletip, daha sonra bu ArrayList i
+bir döngü ile metodlarını ekrana yazdırınız.
+
+2-  Yanda Ekli tasarıma göre:  (files)
+
+Ekteki Tasarıma göre gerekli modülleri yazınız.
+Sonra her birinden nesne üretiniz.
+
+- ürettiğiniz nesneleri bir ArrayListe ekletip, daha sonra bu ArrayList i
+bir döngü ile metodlarını ekrana yazdırınız.
+
+
+
+3-
+Vehicle class interface'i (arayüz) yap.
+
+
+
+    3 adet method oluşturun.
+
+Birinci method ismi changeGear   parametresi 1 adet int.
+
+     İkinci method ismi speedUp parametresi 1 adet int.
+
+        Üçüncü method ismi applyBrakes parametresi 1 adet int.
+
+Bicycle class Vehicle'a implementing ediliyor.
+
+        2 adet int oluşturun. speed ve gear
+
+2 methodu Override edin.
+
+    3 methodun hepsini Vehicle interface'ine Override edin.
+
+    variable gear'ı parameter gear'a eşitleyin.
+
+speedUp methodunun içinde,
+
+       speed variable'ını arttırın.
+
+applyBreakes methodunun içinde,
+
+       speed variable'ını azaltın.
+
+printAll  isminde bir method oluşturunuz.
+
+         print şu şekilde olmalıdır. > current speed is SPEED gear count is GEAR
+
+not: SPEED  speed veriable'ıdır. GEAR  gear veriable'ıdır.
+
+Car class Vehicle'a implementing ediliyor.
+
+      2 adet int oluşturun. speed ve gear
+
+2 methodu Override edin.
+
+    3 methodun hepsini Vehicle interface'ine Override edin.
+
+    variable gear'ı parameter gear'a eşitleyin.
+
+speedUp methodunun içinde,
+
+       speed variable'ını arttırın.
+
+applyBreakes methodunun içinde,
+
+       speed variable'ını azaltın.
+
+printAll  isminde bir method oluşturunuz.
+
+         print şu şekilde olmalıdır. > current speed is SPEED gear count is GEAR
+
+not: SPEED  speed veriable'ıdır. GEAR  gear veriable'ıdır.
+
+main method'un içinde;
+
+Bicycle class ve Car class için object oluşturun.
+
+ changeGear , speedUp  ,  applyBrakes method'larını Bicycle ve Car class'larında çağırın.
+
+Önce Bicycle class'ındaki printAll'u çağırın
+
+Sonra Car class'ındaki printAll'u çağırın.
+
+
+
+      4-
+
+
+
+deliveryOptions  class interface'i (arayüz) yap.
+
+3 tane method oluşturun.
+
+birinci methodun ismi getTheTotal parametresi String arraylist, return type'ı int.
+
+ikinci methodun ismi isFreeShipping  parametresi String arraylist, return type'ı String.
+
+iki tane int oluşturun.
+
+ilki AmazonMinFreeDelivery = 10000
+
+ikincisi CostcoMinFreeDelivery =  15000
+
+
+
+Amazon class'ının içinde
+
+getTotal method'unun içinde 3 tane bunun gibi Stirng vardır.  $3K , $200 , $1K
+
+String'leri int yapınız ve toplam sayıya return ediniz.
+
+ not: sonunda K olan sayılar 1000 ile çarpılır.
+
+isFreeShipping  methodunun içinde
+
+ Eğer toplam sayı AmazonMinFreeDelivery'den yüksekse "you are eligible for free delivery" yadırınız.
+
+Eğer toplam sayı AmazonMinFreeDelivery'den düşük ise "you need to buy ..... amount of item." yazdrınız.
+
+Costco  class'ının içinde
+
+getTotal'ı ve deliveryOptions interface'indeki isFreeShipping methodunu override edin.
+
+getTotal methodunun içinde bunun gibi Stringler vardır. $3K , $200 , $1K
+
+Stirng'leri int yapın ve toplam sayıya return edin.
+
+not: sonunda K olan sayılar 1000 ile çarpılır.
+
+isFreeShipping  methodunun içinde;
+
+Eğer toplam sayı CostcoMinFreeDelivery'dan yüksekse "Print you are eligible for free delivery" yazdırınız.
+
+Eğer toplam sayı CostcoMinFreeDelivery 'dan düşükse "print you need to buy ..... amount of item." yazdırınız.
+
+main method'un içinde
+
+iki tane objects oluşturun.
+
+Biri Amazon class'ı için
+
+Diğeri costco classı için.
+
+amazon class'ının içinde isFreeShipping'i çağırın ve sonucu yazdırın.
+
+costco class'ının içinde isFreeShipping'i çağırın ve sonucu yazdırın.
+

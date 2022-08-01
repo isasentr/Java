@@ -1,0 +1,47 @@
+Metodlarda ne gördük?
+
+faydaları
+sürekli tekrarlayan ifadeleri yazarak tekrar kod yazmaktan kurtulduk.
+kodu basit ve okunabilir hale getiriyor.Olabildiğince modüler oluyor.
+
+parametre almayan ve geriye bir şey döndürmeyen tipti.
+void değer döndürmeyen yani return u olmayan demekti
+public static void merhabaYaz(){
+
+}
+
+int doneneDeger=merhabaYaz(); void oldugu için böyle kullanılamaz.
+------------
+
+parametre alan fakat , geriye bir şey döndürmeyen tipti
+public static void topla(int s1, int s2, , ,)
+{
+      işlemler yapılıyor
+}
+int donenDeger=topla(s1,s2); // bu yazılamaz, çünkü returnu (void) yok.
+
+--------------
+
+public static int topla(int s1, int s2){
+   return s1+s2;
+}
+
+int donenDeger=topla(s1,s2);  // evet yazılabilir çünkü return u var yani bir değer dönüyor.
+
+--------------
+
+public static int toplaIki(int s1,int s2)
+public static int toplaUc(int s1,int s2, int s3)
+
+ikisine de aynı isim verilebilir, eleman sayısından veya tiplerden ayrıt edilebiliyor.
+public static int topla(int s1,int s2)
+public static int topla(int s1,int s2, int s3)
+
+public static int topla(int... intDizi)  bu şekilde kullanıldığında istediğimiz kadar
+aynı tipte parametre gönderebiliriz.
+
+--------------
+public static String birlestir(int yas,String isim)
+public static String birlestir(String isim, int yas)
+bu metodlarda da aynı isim kullanılabilir, çünkü paramatere tipi sırasından
+ayırt edilebiliyor.

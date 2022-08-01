@@ -1,0 +1,133 @@
+1-
+Burada iki adet class vardır. Biri **Main**, diğeri ise **student ,**
+**student classı içinde;**
+String name(isim) ve int age(yaş) isminde variables(değişkenler) oluşturunuz.
+getter ve setter ( alıcı ve ayarlayıcı ) oluşturunuz.
+**Main classın içinde**;
+
+Örnek:
+**age 12**'dir.
+**name Steven**'dır.
+name(isim) olarak;
+**"Student name is Steven"**
+ve
+age(yaş) olarak da;
+"He is 12 years old"
+
+2-
+Burada iki adet class vardır. Biri Main diğeri ise Employees,
+**Employees(Çalışanlar) class'ında;**
+Bu variable'ları oluşturunuz;
+private String name,
+private int salary,
+private String dob (date of birth) (Doğum tarihi)
+getter ve setter oluşturunuz.
+**Main class'ın içinde;**
+_Örnek:_
+
+_Name is Fernando_
+
+_Salary is 80000_
+
+_dob is 11/23/2000_
+
+**main method'un içinde,**
+
+Eğer employee 18 yaşında büyükse, **Welcome to our company Fernando your salary is 80000.** yazdırınız.
+
+Eğer Fernando 18 yaşından küçükse, **come back when you are 18 years old.** yazdırınız.
+
+Eğer Fernando 18 yaşındaysa,  **we can have inter with you after that you can have a 80000 salary** yazdırınız.
+
+```
+ageCalculator isminde bir method oluşturunuz. Şuanki tarih - doğum yılı = employee age
+```
+3-
+
+Burada iki class vardır. Biri Main diğeri ise Subscribe.
+
+**Subscribe class'ının içinde;**
+
+Bu variables'ları **private** oluşturunuz.
+
+String name
+
+boolean doYouWanaSubscribe
+
+String whichMember
+
+3 tip memberShip(üyelik) seviyesi vardır. Gold, Silver ve Bronze (Altın, gümüş ve bronz)
+
+**Main class'ın içinde;**
+
+Örnek;
+
+Name is Victoria, doYouWanaSubscribe true, whichMember Gold
+
+Eğer user(kullanıcı) **Gold** member(üye) olmak istiyorsa;
+
+**Welcome to membership Victoria. Your membership is 40 dollar for month you can enjoy the videos , all homework and see you soon. yazdırınız.**
+
+Eğer user(kullanıcı) **Silver** member(üye) olmak istiyorsa;
+
+**Welcome to membership Victoria. Your membership is 20 dollar for month you can enjoy the videos and all homework. yazdırınız.**
+
+Eğer user(kullanıcı) **Bronze** member(üye) olmak istiyorsa;
+
+**Welcome to membership Victoria. Your membership is 10 dollar for month you can enjoy the videos. yazdırınız.**
+
+Eğer user(kullanıcı) member(üye) olmak istemiyorsa;
+
+**See you when you want to be a member. Thanks yazdırınız.**
+
+4-
+
+Burada iki adet class vardır. Biri Main diğeri ise rentApartments
+
+rentApartments'ın içinde;
+
+Bu variable'ları private olarak oluşturun;
+
+String name
+
+int roomCount
+
+boolean balconyOrNo
+
+Bütün variable'lar için getter ve setter oluşturunuz.
+
+4 farklı Apartment(apartman dairesi) vardır. 0, 1, 2, 3 rooms(odalı)
+
+-----------------------------------------------------------------
+
+Bir method oluşturun;
+
+Eğer room sayısı 0 ise,
+
+rent(kira) 1400
+
+Eğer oda sayısı 1 ise,
+
+rent  1700
+
+Eğer oda sayısı 2 ise,
+
+rent 2200
+
+Eğer oda sayısı 3 ise,
+
+rent 2700
+
+rent'i return'leyin.
+
+----------------------------------------------------------------
+
+Bir method oluşturun.
+
+Eğer balconyOrNo  true ise,
+
+rent'e 200 dollar ekleyin.
+
+Main class'ın içinde;
+
+**userName rent is amountOfRent**
