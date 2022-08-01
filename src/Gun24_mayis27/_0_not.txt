@@ -1,0 +1,25 @@
+int sayi;
+int[] dizi=new int[5]; 1d
+int[][] tablo=new int[3][4]; 2d
+ArrayList<Integer> list=new ArrayList(); 1d
+ArrayList<ArrayList<Integer>> list=new ArrayList();  2d
+
+bugün
+bana içinde elemanı tekrar etmeyen diziler lazım
+   a-hangi sırayla atmışşsam ona göre saklayan tipi
+   b-hangi sırayla atarsam atayım alfabetik veya sayısal sırayla saklayan
+     verile sürekli sıralı halde içerisinde - kendinden SORT lu
+   c-hızlı çalışmak için sıra yok, önemli de değilse bir de bu tip
+Salı
+- map leri göreceksiniz : şu ana kadar elemanları indexiyle çağırıyorduk
+  MAP lerde bir isim vereceğiz ismiyle çağıracağız.
+     mesala adını ver
+            soyadını ver
+Çarşamba ŞERİT değiştiriliyor. ALGORİTMİK durumlarla uğraşmayacağız.
+
+BU ŞERİT yeni nesil yazılım şeriti. tasarım şeriti, yapı   6 haftalık şerit.
+öğrenci.ad
+öğrenci.soyad
+öğrenci.no  
+
+------------------- TESTING TOOLS -------------- 12 hafta da bunlar  Ekim sonu - TESTER sınız. 
